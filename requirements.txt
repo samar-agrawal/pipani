@@ -1,0 +1,9 @@
+flask==1.0.2
+feedgen==0.7.0
+webargs==5.1.2
+flask-apispec==0.7.0
+apispec==0.39.0
+gunicorn==19.9.0
+requests==2.21
+oauth2
+pytest
