@@ -13,7 +13,7 @@ from feedgen.feed import FeedGenerator
 
 app = Flask(__name__)
 BASE_URL = 'https://api.twitter.com'
-DEFAULT_TWEET_LIMIT = 5
+DEFAULT_TWEET_LIMIT = 30
 
 @app.route("/public/hc", methods=['GET'])
 def healthcheck():

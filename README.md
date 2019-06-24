@@ -19,7 +19,7 @@ Environment variables can alternatively be set in .bashrc file
 export CONSUMER_KEY="consumer key"
 export CONSUMER_SECRET="consumer secret"
 pip3 install -r requirements.txt
-export FLASK_APP=fees.py
+export FLASK_APP=feeds.py
 flask run
 ```
 
